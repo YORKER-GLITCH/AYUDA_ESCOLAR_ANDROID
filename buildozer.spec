@@ -1,4 +1,5 @@
 [app]
+android.accept_sdk_license = True
 title = AYUDA ESCOLAR
 package.name = ayudaescolar
 package.domain = org.yorkito
