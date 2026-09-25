@@ -30,7 +30,6 @@ jobs:
           python -m pip install --upgrade "pip<24"
           python -m pip install --upgrade setuptools wheel
           python -m pip install "buildozer==1.5.0" "cython<3"
-          pip install "python-for-android==2024.1.21"
 
       - name: Construir APK
         run: |
