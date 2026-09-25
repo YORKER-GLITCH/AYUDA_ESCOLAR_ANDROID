@@ -33,6 +33,8 @@ jobs:
 
       - name: Construir APK 
         run: |
+         export JAVA_HOME="$JAVA_HOME_17_X64"
+         export PATH="$JAVA_HOME/bin:$PATH"
          java -version
          buildozer android debug --verbose
       - name: Guardar APK
